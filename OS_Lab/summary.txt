@@ -1,0 +1,116 @@
+Memory Management Simulation Summary
+===================================
+Configuration: 1000 warmup steps + 1000 measurement steps
+
+
+1. Average Fragmentation:
+
+Profile/Policy           Best Fit       Worst Fit      First Fit      
+----------------------------------------
+Any Sized Jobs (1-1024)  0.301          0.000          0.000          
+Small Jobs (1-100)       0.000          0.000          0.000          
+Large Jobs (500-1000)    0.000          0.000          0.000          
+
+2. Average Hole Size:
+
+Profile/Policy           Best Fit       Worst Fit      First Fit      
+----------------------------------------
+Any Sized Jobs (1-1024)  273.287        0.000          0.000          
+Small Jobs (1-100)       0.000          0.000          0.000          
+Large Jobs (500-1000)    0.000          0.000          0.000          
+
+3. Average Holes Examined per Request:
+
+Profile/Policy           Best Fit       Worst Fit      First Fit      
+----------------------------------------
+Any Sized Jobs (1-1024)  1.673          0.000          0.000          
+Small Jobs (1-100)       0.000          0.000          0.000          
+Large Jobs (500-1000)    0.000          0.000          0.000          
+
+4. Highest Fragmentation:
+
+Profile/Policy           Best Fit       Worst Fit      First Fit      
+----------------------------------------
+Any Sized Jobs (1-1024)  0.984          0.000          0.000          
+Small Jobs (1-100)       0.000          0.000          0.000          
+Large Jobs (500-1000)    0.000          0.000          0.000          
+
+5. Lowest Fragmentation:
+
+Profile/Policy           Best Fit       Worst Fit      First Fit      
+----------------------------------------
+Any Sized Jobs (1-1024)  0.000          0.000          0.000          
+Small Jobs (1-100)       0.000          0.000          0.000          
+Large Jobs (500-1000)    0.000          0.000          0.000          
+
+6. Average Number of Jobs:
+
+Profile/Policy           Best Fit       Worst Fit      First Fit      
+----------------------------------------
+Any Sized Jobs (1-1024)  1.673          0.000          0.000          
+Small Jobs (1-100)       0.000          0.000          0.000          
+Large Jobs (500-1000)    0.000          0.000          0.000          
+
+7. Highest Number of Jobs:
+
+Profile/Policy           Best Fit       Worst Fit      First Fit      
+----------------------------------------
+Any Sized Jobs (1-1024)  6              0              0              
+Small Jobs (1-100)       0              0              0              
+Large Jobs (500-1000)    0              0              0              
+
+8. Lowest Number of Jobs:
+
+Profile/Policy           Best Fit       Worst Fit      First Fit      
+----------------------------------------
+Any Sized Jobs (1-1024)  1              0              0              
+Small Jobs (1-100)       0              0              0              
+Large Jobs (500-1000)    0              0              0              
+
+9. Average Job Size:
+
+Profile/Policy           Best Fit       Worst Fit      First Fit      
+----------------------------------------
+Any Sized Jobs (1-1024)  494.600        0.000          0.000          
+Small Jobs (1-100)       0.000          0.000          0.000          
+Large Jobs (500-1000)    0.000          0.000          0.000          
+
+10. Average Number of Holes:
+
+Profile/Policy           Best Fit       Worst Fit      First Fit      
+----------------------------------------
+Any Sized Jobs (1-1024)  1.128          0.000          0.000          
+Small Jobs (1-100)       0.000          0.000          0.000          
+Large Jobs (500-1000)    0.000          0.000          0.000          
+
+11. Highest Number of Holes:
+
+Profile/Policy           Best Fit       Worst Fit      First Fit      
+----------------------------------------
+Any Sized Jobs (1-1024)  3              0              0              
+Small Jobs (1-100)       0              0              0              
+Large Jobs (500-1000)    0              0              0              
+
+12. Lowest Number of Holes:
+
+Profile/Policy           Best Fit       Worst Fit      First Fit      
+----------------------------------------
+Any Sized Jobs (1-1024)  0              0              0              
+Small Jobs (1-100)       0              0              0              
+Large Jobs (500-1000)    0              0              0              
+
+13. Maximum Partitions in a Row:
+
+Profile/Policy           Best Fit       Worst Fit      First Fit      
+----------------------------------------
+Any Sized Jobs (1-1024)  5              0              0              
+Small Jobs (1-100)       0              0              0              
+Large Jobs (500-1000)    0              0              0              
+
+14. Maximum Evictions for a Request:
+
+Profile/Policy           Best Fit       Worst Fit      First Fit      
+----------------------------------------
+Any Sized Jobs (1-1024)  5              0              0              
+Small Jobs (1-100)       0              0              0              
+Large Jobs (500-1000)    0              0              0              
